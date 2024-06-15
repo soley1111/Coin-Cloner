@@ -13,10 +13,14 @@ This chrome extension is used to clone crypto coins on the '**pump.fun**' websit
 - Copy and paste functionality for contact addresses.
 - User-friendly interface for easy cloning.
 ## Code Explanation
-- **'background.js'**: Handles background tasks such as fetching data from the API and storing it in local storage.
-- **'content.js'**: Contains the script that runs on the Pump.fun create page to autofill the form.
-- **'popup.js'**: Contains the logic for the popup interface, including event listeners for buttons.
-- **'popup.html'**: The HTML structure for the extension's popup interface.
+###**'background.js'**
+Handles background tasks such as fetching data from the API and storing it in local storage.
+###**'content.js'**
+Contains the script that runs on the Pump.fun create page to autofill the form.
+###**'popup.js'**
+Contains the logic for the popup interface, including event listeners for buttons.
+###**'popup.html'**
+The HTML structure for the extension's popup interface.
 ## Usage
 When on  valid pump.fun page
 ## Installation
