@@ -20,7 +20,10 @@ The content script runs on the Pump.fun create page. It retrieves the stored API
 ### **popup.js**
 The popup script manages the user interface of the extension. It includes buttons for copying the contact address from the current URL, pasting the contact address from the clipboard, and initiating the clone action.
 ## Usage
-When on  valid pump.fun page
+- Click on the CLONER extension icon in the Chrome toolbar to open the popup.
+- Enter the contact address in the input field or use the "Paste" button to paste it from the clipboard.
+- Click "Clone" to fetch the coin data and open the Pump.fun create page.
+- The form on the Pump.fun create page will be automatically filled out with the fetched data.
 ## Installation
 - Clone or download the repository.
 - Open Chrome and navigate to chrome://extensions/.
