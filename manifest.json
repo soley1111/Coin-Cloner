@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "CLONER",
+  "version": "2.2.2",
+  "description": "soley's pump.fun cloner",
+  "host_permissions": [
+    "https://*.pump.fun/*"
+  ],
+  "permissions": [
+    "clipboardRead",
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://pump.fun/create"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
