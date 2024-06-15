@@ -15,3 +15,7 @@ This coin ...
 ### Usage
 When on  valid pump.fun page
 ### Installation
+- Clone or download the repository.
+- Open Chrome and navigate to chrome://extensions/.
+- Enable "Developer mode" at the top right.
+- Click "Load unpacked" and select the directory containing the extension files.
