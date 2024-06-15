@@ -14,13 +14,13 @@ This chrome extension is used to clone crypto coins on the '**pump.fun**' websit
 - User-friendly interface for easy cloning.
 ## Code Explanation
 ### **background.js**
-> The background script listens for messages from the popup. When a clone action is requested, it fetches the coin data from the PumpPortal API and stores it in local storage. It then opens the Pump.fun create page in a new tab.
+The background script listens for messages from the popup. When a clone action is requested, it fetches the coin data from the PumpPortal API and stores it in local storage. It then opens the Pump.fun create page in a new tab.
 ### **content.js**
-> The content script runs on the Pump.fun create page. It retrieves the stored API data from local storage and fills out the form with the data. It also handles expanding sections of the form and opening the coin icon link in a new tab.
+The content script runs on the Pump.fun create page. It retrieves the stored API data from local storage and fills out the form with the data. It also handles expanding sections of the form and opening the coin icon link in a new tab.
 ### **popup.js**
-> The popup script manages the user interface of the extension. It includes buttons for copying the contact address from the current URL, pasting the contact address from the clipboard, and initiating the clone action.
+The popup script manages the user interface of the extension. It includes buttons for copying the contact address from the current URL, pasting the contact address from the clipboard, and initiating the clone action.
 ## Usage
-> When on  valid pump.fun page
+When on  valid pump.fun page
 ## Installation
 - Clone or download the repository.
 - Open Chrome and navigate to chrome://extensions/.
