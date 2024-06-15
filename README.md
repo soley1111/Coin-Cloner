@@ -24,6 +24,8 @@ The popup script manages the user interface of the extension. It includes button
 - Enter the contact address in the input field or use the "Paste" button to paste it from the clipboard.
 - Click "Clone" to fetch the coin data and open the Pump.fun create page.
 - The form on the Pump.fun create page will be automatically filled out with the fetched data.
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
 ## Installation
 - Clone or download the repository.
 - Open Chrome and navigate to chrome://extensions/.
