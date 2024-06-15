@@ -2,9 +2,11 @@
 ### Description
 This coin ...
 ### Features
-- Allows the user to easily copy a contact address from the current page
-- Allows the user to paste directly from clipboard with a click of a button
-- 
+- Fetches coin data from the Pump Portal API using the provided contact address.
+- Automatically fills out the form on the Pump.fun create page with the fetched data.
+- Opens the coin icon link in a new tab.
+- Copy and paste functionality for contact addresses.
+- User-friendly interface for easy cloning.
 ### Code Explanation
 - **'background.js'**: Handles background tasks such as fetching data from the API and storing it in local storage.
 - **'content.js'**: Contains the script that runs on the Pump.fun create page to autofill the form.
